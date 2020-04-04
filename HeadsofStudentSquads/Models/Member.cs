@@ -8,6 +8,7 @@ namespace HeadsofStudentSquads.Models
 {
     public class Member : DbContext
     {
+        //Что-то изменяю
         public Guid Id {get;set;}
         public DateTime DateofEnter { get; set; }
         public DateTime DateofExit { get; set; }
